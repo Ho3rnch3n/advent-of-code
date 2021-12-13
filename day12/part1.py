@@ -27,7 +27,7 @@ def follow(locations,cur_location,cur_path):
     return paths
 
 
-with open("testinput.txt","r") as myinput:
+with open("input.txt","r") as myinput:
     locations = {}
 
     for line in myinput:
